@@ -139,6 +139,26 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Container(
+                      margin: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(10),
+                      width: MediaQuery.of(context).size.width,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.yellow,
+                      ),
+                      child: InkWell(
+                          onTap: () {
+                            Navigator.pushNamed(
+                                context, '/7_animated_container');
+                          },
+                          child: Text(
+                            '#7 Tutorial AnimatedContainer dan GestureDetector',
+                            style: TextStyle(
+                              fontSize: 16,
+                            ),
+                          )),
+                    ),
                   ],
                 ),
               ],
