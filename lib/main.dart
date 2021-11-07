@@ -5,6 +5,7 @@ import 'package:flutter_study/pages/1_column_row.dart';
 import 'package:flutter_study/pages/2_container.dart';
 import 'package:flutter_study/pages/3_stateful.dart';
 import 'package:flutter_study/pages/4_anonymous_method.dart';
+import 'package:flutter_study/pages/5_list_listview.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     '/2_container': (_) => ContainerPage(),
     '/3_stateful': (_) => StatefulPage(),
     '/4_anonymous': (_) => AnonymousPage(),
+    '/5_listview': (_) => ListViewPage(),
   };
 
   @override
