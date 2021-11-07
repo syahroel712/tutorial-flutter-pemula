@@ -112,7 +112,27 @@ class HomePage extends StatelessWidget {
                           Navigator.pushNamed(context, '/5_listview');
                         },
                         child: Text(
-                          '#5 Tutorial Listview',
+                          '#5 Tutorial List dan Listview',
+                          style: TextStyle(
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(10),
+                      width: MediaQuery.of(context).size.width,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.yellow,
+                      ),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, '/6_textstyle');
+                        },
+                        child: Text(
+                          '#6 Tutorial Textstyle',
                           style: TextStyle(
                             fontSize: 16,
                           ),
