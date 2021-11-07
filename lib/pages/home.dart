@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text("Belajar Flutter"),
+          title: Text("Tutorial Flutter"),
         ),
         body: SafeArea(
           child: Expanded(
@@ -72,6 +72,26 @@ class HomePage extends StatelessWidget {
                       },
                       child: Text(
                         '#3 Tutorial Stateful',
+                        style: TextStyle(
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(5),
+                    padding: EdgeInsets.all(10),
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: Colors.yellow,
+                    ),
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/4_anonymous');
+                      },
+                      child: Text(
+                        '#4 Anonymous Method',
                         style: TextStyle(
                           fontSize: 16,
                         ),
