@@ -9,6 +9,7 @@ import 'package:flutter_study/pages/5_list_listview.dart';
 import 'package:flutter_study/pages/6_textstyle.dart';
 import 'package:flutter_study/pages/7_animatedContainer_gestureDetector.dart';
 import 'package:flutter_study/pages/8_flexible.dart';
+import 'package:flutter_study/pages/9_stack_align.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
     '/6_textstyle': (_) => TextStylePage(),
     '/7_animated_container': (_) => AnimatedContainerPage(),
     '/8_flexible': (_) => FlexiblePage(),
+    '/9_stack_align': (_) => StackAlignPage(),
   };
 
   @override
