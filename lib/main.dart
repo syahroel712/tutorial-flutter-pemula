@@ -8,6 +8,7 @@ import 'package:flutter_study/pages/4_anonymous_method.dart';
 import 'package:flutter_study/pages/5_list_listview.dart';
 import 'package:flutter_study/pages/6_textstyle.dart';
 import 'package:flutter_study/pages/7_animatedContainer_gestureDetector.dart';
+import 'package:flutter_study/pages/8_flexible.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
     '/5_listview': (_) => ListViewPage(),
     '/6_textstyle': (_) => TextStylePage(),
     '/7_animated_container': (_) => AnimatedContainerPage(),
+    '/8_flexible': (_) => FlexiblePage(),
   };
 
   @override
