@@ -11,6 +11,7 @@ import 'package:flutter_study/pages/7_animatedContainer_gestureDetector.dart';
 import 'package:flutter_study/pages/8_flexible.dart';
 import 'package:flutter_study/pages/9_stack_align.dart';
 import 'package:flutter_study/pages/10_image.dart';
+import 'package:flutter_study/pages/11_spacer.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
     '/8_flexible': (_) => FlexiblePage(),
     '/9_stack_align': (_) => StackAlignPage(),
     '/10_image': (_) => ImagePage(),
+    '/11_spacer': (_) => SpacerPage(),
   };
 
   @override
