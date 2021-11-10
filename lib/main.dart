@@ -13,6 +13,7 @@ import 'package:flutter_study/pages/9_stack_align.dart';
 import 'package:flutter_study/pages/10_image.dart';
 import 'package:flutter_study/pages/11_spacer.dart';
 import 'package:flutter_study/pages/12_draggable_dragTarget.dart';
+import 'package:flutter_study/pages/13_multi_page/login.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
     '/10_image': (_) => ImagePage(),
     '/11_spacer': (_) => SpacerPage(),
     '/12_draggable': (_) => DraggablePage(),
+    '/13_multi_page': (_) => LoginMultiPage(),
   };
 
   @override
