@@ -16,6 +16,7 @@ import 'package:flutter_study/pages/12_draggable_dragTarget.dart';
 import 'package:flutter_study/pages/13_multi_page/login.dart';
 import 'package:flutter_study/pages/14_appbar_gradasi.dart';
 import 'package:flutter_study/pages/15_card.dart';
+import 'package:flutter_study/pages/16_textField.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
     '/13_multi_page': (_) => LoginMultiPage(),
     '/14_appbar': (_) => AppBarPage(),
     '/15_card': (_) => CardPage(),
+    '/16_textfield': (_) => TextfieldPage(),
   };
 
   @override
