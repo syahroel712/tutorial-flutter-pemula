@@ -9,7 +9,7 @@ class TextfieldPage extends StatefulWidget {
 
 class _TextfieldPageState extends State<TextfieldPage> {
   TextEditingController controller = TextEditingController();
-
+  TextEditingController controller2 = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,6 +30,38 @@ class _TextfieldPageState extends State<TextfieldPage> {
               controller: controller,
             ),
             Text(controller.text),
+            // textfield decoration
+            TextField(
+              decoration: InputDecoration(
+                fillColor: Colors.lightBlue[50],
+                filled: true,
+                icon: Icon(Icons.account_balance),
+                prefixIcon: Icon(Icons.person),
+                prefix: Container(width: 10, height: 10, color: Colors.red),
+                // prefixText: "Name",
+                // prefixStyle: TextStyle(
+                //   color: Colors.blue,
+                //   fontWeight: FontWeight.w500,
+                // ),
+                suffixIcon: Icon(Icons.person_add),
+                labelText: "Nama lengkap",
+                labelStyle: TextStyle(
+                  fontWeight: FontWeight.w900,
+                ),
+                hintText: "Masukkan nama anda",
+                hintStyle: TextStyle(
+                  fontSize: 12,
+                ),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              onChanged: (value) {
+                setState(() {});
+              },
+              controller: controller2,
+            ),
+            Text(controller2.text),
           ],
         ),
       ),
