@@ -17,6 +17,7 @@ import 'package:flutter_study/pages/13_multi_page/login.dart';
 import 'package:flutter_study/pages/14_appbar_gradasi.dart';
 import 'package:flutter_study/pages/15_card.dart';
 import 'package:flutter_study/pages/16_textField.dart';
+import 'package:flutter_study/pages/18_mediaQuery.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
     '/14_appbar': (_) => AppBarPage(),
     '/15_card': (_) => CardPage(),
     '/16_textfield': (_) => TextfieldPage(),
+    '/18_mediaquery': (_) => MediaQueryPage(),
   };
 
   @override

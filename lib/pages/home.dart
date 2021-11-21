@@ -332,7 +332,27 @@ class HomePage extends StatelessWidget {
                           Navigator.pushNamed(context, '/16_textfield');
                         },
                         child: Text(
-                          '#16 TextField',
+                          '#16 & #17 TextField',
+                          style: TextStyle(
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(10),
+                      width: MediaQuery.of(context).size.width,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.yellow,
+                      ),
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, '/18_mediaquery');
+                        },
+                        child: Text(
+                          '#18 Media Query',
                           style: TextStyle(
                             fontSize: 16,
                           ),
