@@ -18,6 +18,7 @@ import 'package:flutter_study/pages/14_appbar_gradasi.dart';
 import 'package:flutter_study/pages/15_card.dart';
 import 'package:flutter_study/pages/16_textField.dart';
 import 'package:flutter_study/pages/18_mediaQuery.dart';
+import 'package:flutter_study/pages/19_inkwell.dart';
 
 void main() {
   runApp(MyApp());
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
     '/15_card': (_) => CardPage(),
     '/16_textfield': (_) => TextfieldPage(),
     '/18_mediaquery': (_) => MediaQueryPage(),
+    '/19_inkwell': (_) => InkWellPage(),
   };
 
   @override
